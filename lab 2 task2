@@ -1,0 +1,18 @@
+
+package javaapplication52;
+public class JavaApplication52 {
+    public static void main(String[] args) {
+      int num=-6;
+      if(num>0){
+        System.out.println("it is positive number");
+    }
+      else if(num<0)
+      {
+                  System.out.println("it is negative number");
+      }   
+      else{
+                  System.out.println("it is zero number");
+
+      }
+}
+}
