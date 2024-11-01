@@ -1,0 +1,23 @@
+
+package computer;
+
+
+public class Computer {
+String name;
+String config;
+Double cost;
+String os;
+  public void getdetail(){
+      System.out.println("name of computer\t"+name+"\nconfig of computer\t"+config+"\ncost of computer\t"+cost+"\nos od computer is\t"+os);
+  }
+  
+    public static void main(String[] args) {
+      Computer c=new Computer();
+      c.name="Apple";
+      c.config="i5";
+      c.cost=55000.0;
+      c.os="ios";
+      c.getdetail();
+    }
+    
+}
